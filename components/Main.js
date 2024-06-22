@@ -3,13 +3,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons"
 
 export default function Main(props) {
-    console.log("main:", props)
-
-    console.log("location:", props.location)
     return (
         <div className="content">
             <div className="container-image">
-                <img className="content-image" src={`./images/${props.imageUrl}`} />
+                <img className="content-image" src={`./images/${props.imageUrl}`} alt={`Image of ${props.title}`} />
             </div>
             <div className="container-info">
                 <div className="container-location">

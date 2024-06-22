@@ -15536,16 +15536,13 @@ var _freeSolidSvgIcons = __webpack_require__(4);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function Main(props) {
-    console.log("main:", props);
-
-    console.log("location:", props.location);
     return _react2.default.createElement(
         "div",
         { className: "content" },
         _react2.default.createElement(
             "div",
             { className: "container-image" },
-            _react2.default.createElement("img", { className: "content-image", src: "./images/" + props.imageUrl })
+            _react2.default.createElement("img", { className: "content-image", src: "./images/" + props.imageUrl, alt: "Image of " + props.title })
         ),
         _react2.default.createElement(
             "div",
