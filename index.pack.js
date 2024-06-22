@@ -15562,7 +15562,7 @@ function Main(props) {
                 ),
                 _react2.default.createElement(
                     "a",
-                    { className: "content-googlemaplink", href: props.googleMapsUrl },
+                    { className: "content-googlemaplink", href: props.googleMapsUrl, target: "_blank" },
                     "View on Google Maps"
                 )
             ),
