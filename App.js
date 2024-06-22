@@ -15,7 +15,9 @@ export default function App() {
     return (
         <div>
             <Navbar />
-            {mainContent}
+            <section class="section-main">
+                {mainContent}
+            </section>
         </div>
     )
 }

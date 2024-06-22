@@ -12360,7 +12360,11 @@ function App() {
         "div",
         null,
         _react2.default.createElement(_Navbar2.default, null),
-        mainContent
+        _react2.default.createElement(
+            "section",
+            { "class": "section-main" },
+            mainContent
+        )
     );
 }
 
