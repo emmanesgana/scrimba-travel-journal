@@ -104,13 +104,13 @@ nav {
     line-height: 1.3em;
 }
 
-@media (min-width: 520px) {
+@media (min-width: 600px) {
     nav {
-        width: 520px;
+        width: 600px;
     }
 
     .section-main {
-        width: 520px;
+        width: 600px;
         background-color: #FFFFFF;
     }
 
