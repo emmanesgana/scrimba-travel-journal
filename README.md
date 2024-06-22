@@ -1,4 +1,9 @@
-# co74f46f2b22693c5ea577559
+# Travel Journal Site
+[Demo Site](https://nuutri-travel-journal.netlify.app/)
+
+## Screenshot
+
+![Screenshot](https://github.com/emmanesgana/scrimba-travel-journal/blob/main/preview/preview.png)
 
 Quick start:
 
